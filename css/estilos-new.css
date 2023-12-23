@@ -57,6 +57,12 @@
     background: #494f6392;
     padding: 2rem;
 }
+@media (min-width: 992px) {
+    .medio2:hover,
+    .medio2.active {
+        transform: scale(1.2);
+    }
+}
 /* FORMULARIO CONVIERTETE EN ORADOR
 --------------------------------------------------------*/
 .btn-form {
